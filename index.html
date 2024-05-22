@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Hospital Room Booking</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="index.css">
+ <style>
+   /* CSS styles */
+   body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f4f4f4;
+   }
+
+   /* Navbar styles */
+   nav {
+     background-color: #4CAF50;
+     color: #fff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 20px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   }
+
+   nav a {
+     color: #fff;
+     text-decoration: none;
+     padding: 10px;
+     transition: background-color 0.3s ease;
+     border-radius: 5px;
+   }
+
+   nav a:hover {
+     background-color: #3e8e41;
+   }
+
+   nav .logo {
+     font-size: 24px;
+     font-weight: bold;
+   }
+
+   /* Hero section styles */
+   .hero {
+     
+     color: #fff;
+     padding: 80px 20px;
+     text-align: center;
+   }
+
+   .hero h1 {
+     font-size: 36px;
+     margin-bottom: 20px;
+   }
+
+   .hero p {
+     font-size: 18px;
+     margin-bottom: 30px;
+   }
+
+   .hero .btn {
+     background-color: #fff;
+     
+     padding: 10px 20px;
+     border: none;
+     border-radius: 4px;
+     text-decoration: none;
+     transition: background-color 0.3s ease;
+   }
+
+   .hero .btn:hover {
+     background-color: #f2f2f2;
+   }
+
+   /* Responsive styles */
+   @media (max-width: 768px) {
+     nav {
+       flex-direction: column;
+       align-items: stretch;
+     }
+
+     nav div {
+       margin-bottom: 10px;
+     }
+
+     nav a {
+       display: block;
+       text-align: center;
+     }
+
+     .hero {
+       padding: 40px 20px;
+     }
+
+     .hero h1 {
+       font-size: 28px;
+     }
+
+     .hero p {
+       font-size: 16px;
+     }
+   }
+ </style>
+</head>
+<body>
+ <div class="ken">
+ <nav>
+   <div class="logo">
+     <i class="fas fa-hospital"></i> Hospital Room Booking
+   </div>
+   <div>
+     <a href="#"><i class="fas fa-home"></i> Home</a>
+     <a href="ran.html"><i class="fas fa-book"></i> Book Room</a>
+     <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+     <a href="login.html"><i class="fas fa-user"></i> Login</a>
+   </div>
+ </nav>
+ <div class="hero1">
+ <div class="hero">
+   <h1>Welcome to Hospital Room Booking</h1>
+   <p>Book your hospital room easily and conveniently with our online platform.</p>
+   <a href="index.html" class="btn"><i class="fas fa-book"></i> Book Now</a>
+ </div>
+</div>
+</div>
+ <div class="pricing-section">
+    <div class="container">
+      <h2 class="section-title">ราคาค่าบริการ</h2>
+      <div class="grid-container">
+        <div class="grid-item text">
+          <p>เรามีห้องพักหลากหลายประเภทให้เลือกตามความต้องการของคุณ ทั้งห้องพักรายวัน ห้องพักรายสัปดาห์ และห้องพักระยะยาว แบ่งเป็นประเภทห้องดังนี้:</p>
+          <div class="room-type">
+            <i class="fas fa-bed"></i>
+            <div class="room-details">
+              <h3>ห้องพักมาตรฐาน</h3>
+              <p>เหมาะสำหรับการพักผ่อนระยะสั้น สะดวกสบาย</p>
+              <p class="price">เริ่มต้นเพียง 1,500 บาท/วัน</p>
+            </div>
+          </div>
+          <div class="room-type">
+            <i class="fas fa-crown"></i>
+            <div class="room-details">
+              <h3>ห้องพักพรีเมียม</h3>
+              <p>ออกแบบมาอย่างพิถีพิถัน มีสิ่งอำนวยความสะดวกครบครัน</p>
+              <p class="price">เริ่มต้น 2,500 บาท/วัน</p>
+            </div>
+          </div>
+          <div class="room-type">
+            <i class="fas fa-star"></i>
+            <div class="room-details">
+              <h3>ห้องพักสวีท</h3>
+              <p>ความหรูหราและความสะดวกสบายระดับพรีเมียม</p>
+              <p class="price">เริ่มต้น 4,000 บาท/วัน</p>
+            </div>
+          </div>
+          <p>นอกจากนี้ ยังมีโปรโมชันและแพ็กเกจพิเศษสำหรับการพักระยะยาวด้วย</p>
+        </div>
+        <div class="grid-item image">
+          <img src="https://sthotelsmalta.com/wp-content/uploads/2022/06/modern-luxury-bedroom-suite-and-bathroom-with-working-table-2048x1327.jpg" alt="Hospital Room">
+          <img src="https://aremorch.com/wp-content/uploads/2016/09/The-Details-That-Matter-Top-Things-Every-Luxury-Hotel-Room-Should-Have.png" alt="Hospital Room">
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3>เกี่ยวกับเรา</h3>
+          <p>เรามุ่งมั่นที่จะให้บริการห้องพักที่สะดวกสบาย ปลอดภัย และมีคุณภาพระดับมาตรฐาน เพื่อให้คุณได้รับประสบการณ์การพักผ่อนที่ดีที่สุด</p>
+        </div>
+        <div class="footer-section contact">
+          <h3>ติดต่อสอบถาม</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 123 ถนนพัฒนาการ แขวงสามเสนใน เขตพญาไท กรุงเทพฯ 10400</p>
+          <p><i class="fas fa-phone"></i> 02-123-4567</p>
+          <p><i class="fas fa-envelope"></i> info@hospitalroombooking.com</p>
+        </div>
+        <div class="footer-section follow">
+          <h3>ติดตามเรา</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Hospital Room Booking. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+ <!-- Add your booking form or other content here -->
+</body>
+</html>

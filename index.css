@@ -1,0 +1,127 @@
+.pricing-section {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .grid-item {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .text p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .room-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .room-type i {
+    font-size: 36px;
+    color: #4CAF50;
+    margin-right: 20px;
+  }
+  
+  .room-details h3 {
+    color: #4CAF50;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    color: #FF5722;
+    font-weight: bold;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section i {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+  }
+  .ken{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/06/51/72/55/1000_F_651725559_DVpObCVHW1sK0hZ83x9VdYL57JnNrGXm.jpg);
+    background-size: cover;
+    background-position: right top;
+  }
+  .hero1{
+    height: 400px;
+  }
+  
